@@ -1,23 +1,20 @@
-import React, { Fragment,useRef } from 'react'
+import React, { Fragment,useState } from 'react'
 import '../../assets/css/custom.css'
 import '../../assets/css/responsive.css'
 import { MapPin,House,SquaresFour,Fingerprint,Camera,Paperclip,Swatches,DribbbleLogo,TwitterLogo,InstagramLogo,YoutubeLogo} from "@phosphor-icons/react";
 import me from '../../assets/img/miltondey.png'
 
 const Sidebar = () => {
-    const navRef = useRef();
-
-	const showNavbar = () => {
-		navRef.current.classList.toggle(
-			"responsive_nav"
-		);
-	};
+    const[isOpen,setIsOpen]= useState(false);
+    const toggleMenu = () => {
+        setIsOpen((open) => !open); // Change Open to open
+    };
   return (
     
         <Fragment>
-            <div className="sticky-sidebar">
+            <div className={`sticky-sidebar ${isOpen ? "active-nav" : ""}`}>
                 <div className="sticky-sidebar-inner">
-                    <div className="sidebar-top" ref={navRef}>
+                    <div className="sidebar-top">
                         <div className="sidebar-logo">
                             <div className="left">
                                 <a href="index.html" className="logo-img">
@@ -70,10 +67,10 @@ const Sidebar = () => {
                             <div className="responsive-mode sidebar-bottom">
                                 <div className="social-link-wrap">
                                     <ul className="social-links">
-                                        <li><a href="https://dribbble.com/"><DribbbleLogo size={32} /></a></li>
-                                        <li><a href="https://twitter.com/"><TwitterLogo size={32} /></a></li>
-                                        <li><a href="https://instagram.com/"><InstagramLogo size={32} /></a></li>
-                                        <li><a href="https://youtube.com/"><YoutubeLogo size={32} /></a></li>
+                                        <li><a href="https://dribbble.com/"><DribbbleLogo size={15} /></a></li>
+                                        <li><a href="https://twitter.com/"><TwitterLogo size={15} /></a></li>
+                                        <li><a href="https://instagram.com/"><InstagramLogo size={15} /></a></li>
+                                        <li><a href="https://youtube.com/"><YoutubeLogo size={15} /></a></li>
                                     </ul>
                                 </div>
                                 <p className="copyright-text">
@@ -82,12 +79,10 @@ const Sidebar = () => {
                             </div>
                         </div>
 
-                        <div className="humberg-menu">
-                            <button>
+                        <div className="humberg-menu" onClick={toggleMenu}>
                             <span></span>
                             <span></span>
                             <span></span>
-                            </button>
                         </div>
                     </div>
                     <div className="sidebar-bottom">
