@@ -2,7 +2,7 @@ import React, { Fragment,useState } from 'react'
 import '../../assets/css/custom.css'
 import '../../assets/css/responsive.css'
 import { MapPin,House,SquaresFour,Fingerprint,Camera,Paperclip,Swatches,DribbbleLogo,TwitterLogo,InstagramLogo,YoutubeLogo} from "@phosphor-icons/react";
-import me from '../../assets/img/miltondey.png'
+import me from '../../assets/img/miltondeyface.jpg'
 
 const Sidebar = () => {
     const[isOpen,setIsOpen]= useState(false);

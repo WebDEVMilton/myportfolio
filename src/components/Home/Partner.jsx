@@ -51,16 +51,16 @@ const Partner = () => {
 
                     <div className="project-experience-wrap">
                         <div className="project-experience">
-                            <h2>12+</h2>
+                            <h2>1.5+</h2>
                             <p>Years of experience</p>
                         </div>
                         <div className="project-experience">
-                            <h2>100+</h2>
+                            <h2>40+</h2>
                             <p>Completed Projects</p>
                         </div>
                         <div className="project-experience">
-                            <h2>$16M</h2>
-                            <p>Partners Raised</p>
+                            <h2>13+</h2>
+                            <p>Happy Client</p>
                         </div>
                     </div>
                 </div>

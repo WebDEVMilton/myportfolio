@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react'
 import '../../assets/css/custom.css'
 import '../../assets/css/responsive.css'
-import me from '../../assets/img/miltondey.png'
+import me from '../../assets/img/miltondey1.jpg'
 import {Clock} from "@phosphor-icons/react";
+// import * as React from 'react';
+// import Map from 'react-map-gl';
+
 const Header = () => {
   return (
     <Fragment>
-                    {/* <!-- Header
-            ======================================= !--> */}
             <section className="hero-area">
                 <div className="custom-container">
                     <div className="custom-row">
@@ -36,7 +37,7 @@ const Header = () => {
 
                             <div className="hero-content-bottom">
                                 <div className="hero-content common-box">
-                                    <span>A WEB DEVELOPER</span>
+                                    <span>A Software Engineer</span>
                                     <h1>Milton Dey Mishu 👋🏽</h1>
                                     <p>I am a San francisco-based product designer with a focus on web design, illustration, a visual development. I have a diverse range of experience and industries.</p>
                                     {/* <img src="assets/imgs/signeture.svg" alt="Signeture" className="signeture"> */}
@@ -49,6 +50,7 @@ const Header = () => {
                                     </div>
                                     <div id="hero-map">
                                         <canvas id="cobe" width="600" height="600"></canvas>
+                                        
                                     </div>
                                 </div>
                             </div>
