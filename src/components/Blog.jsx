@@ -8,7 +8,7 @@ import blog3 from '../assets/img/blog-3.png'
 const Blog = () => {
   return (
     <Fragment>
-                    <section class="blog-area">
+            <section class="blog-area">
                 <div class="custom-container">
                     <div class="blog-header section-header">
                         <a href="blog.html" class="theme-btn common-box">

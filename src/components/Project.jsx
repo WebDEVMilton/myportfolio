@@ -9,6 +9,7 @@ import project3 from '../assets/img/project-3.png'
 import project4 from '../assets/img/project-4.png'
 import project5 from '../assets/img/project-5.png'
 import project6 from '../assets/img/project-6.png'
+import rightarrow from '../assets/img/right-arrow.svg'
 
 
 const Project = () => {
@@ -43,10 +44,10 @@ const Project = () => {
                         <div class="swiper project-slider">
                             <div class="swiper-wrapper">
                             <Carousel
-                             showArrows={true} 
-                             infiniteLoop={true} 
-                             showThumbs={false} 
-                             showStatus={false}
+                            showArrows={true} 
+                            infiniteLoop={true} 
+                            showThumbs={false} 
+                            showStatus={false}
                             >
                                 <div class="swiper-slide">
                                     <div class="project-slide-col-2">
@@ -67,7 +68,7 @@ const Project = () => {
                                                 <a href="project-detail.html" class="theme-btn common-box">
                                                     <span>
                                                         <span class="normal"><i class="las la-angle-right"></i></span>
-                                                        <span class="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                                        <span class="hover"><img src={rightarrow} alt="icon"/></span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -89,7 +90,7 @@ const Project = () => {
                                                 <a href="project-detail.html" class="theme-btn common-box">
                                                     <span>
                                                         <span class="normal"><i class="las la-angle-right"></i></span>
-                                                        <span class="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                                        <span class="hover"><img src={rightarrow} alt="icon"/></span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -116,7 +117,7 @@ const Project = () => {
                                                 <a href="project-detail.html" class="theme-btn common-box">
                                                     <span>
                                                         <span class="normal"><i class="las la-angle-right"></i></span>
-                                                        <span class="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                                        <span class="hover"><img src={rightarrow} alt="icon"/></span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -138,7 +139,7 @@ const Project = () => {
                                                 <a href="project-detail.html" class="theme-btn common-box">
                                                     <span>
                                                         <span class="normal"><i class="las la-angle-right"></i></span>
-                                                        <span class="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                                        <span class="hover"><img src={rightarrow} alt="icon"/></span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -165,7 +166,7 @@ const Project = () => {
                                                 <a href="project-detail.html" class="theme-btn common-box">
                                                     <span>
                                                         <span class="normal"><i class="las la-angle-right"></i></span>
-                                                        <span class="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                                        <span class="hover"><img src={rightarrow} alt="icon"/></span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -187,7 +188,7 @@ const Project = () => {
                                                 <a href="project-detail.html" class="theme-btn common-box">
                                                     <span>
                                                         <span class="normal"><i class="las la-angle-right"></i></span>
-                                                        <span class="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                                        <span class="hover"><img src={rightarrow} alt="icon"/></span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -200,7 +201,7 @@ const Project = () => {
                                         <div class="project-slider-box">
                                             <a href="project-detail.html" class="overlay-link"></a>
                                             <div class="project-img">
-                                                <img src="assets/imgs/project-1.png" alt="Project"/>
+                                                <img src={project1} alt="Project"/>
                                                 <span class="badge-year">
                                                     <span class="badge-inner">
                                                         <span>2024</span>
@@ -214,7 +215,7 @@ const Project = () => {
                                                 <a href="project-detail.html" class="theme-btn common-box">
                                                     <span>
                                                         <span class="normal"><i class="las la-angle-right"></i></span>
-                                                        <span class="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                                        <span class="hover"><img src={rightarrow} alt="icon"/></span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -222,7 +223,7 @@ const Project = () => {
                                         <div class="project-slider-box">
                                             <a href="project-detail.html" class="overlay-link"></a>
                                             <div class="project-img">
-                                                <img src="assets/imgs/project-4.png" alt="Project"/>
+                                                <img src={project6} alt="Project"/>
                                                 <span class="badge-year">
                                                     <span class="badge-inner">
                                                         <span>2024</span>
@@ -236,7 +237,7 @@ const Project = () => {
                                                 <a href="project-detail.html" class="theme-btn common-box">
                                                     <span>
                                                         <span class="normal"><i class="las la-angle-right"></i></span>
-                                                        <span class="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                                        <span class="hover"><img src={rightarrow} alt="icon"/></span>
                                                     </span>
                                                 </a>
                                             </div>

@@ -929,8 +929,8 @@ main {
 .project-slide-col-2 {
     display: flex;
     justify-content: space-between;
-   
     align-items: center;
+    text-align: left;
   }
 
 /* .project-slider .project-slide-col-2 .project-slider-box + .project-slider-box {
