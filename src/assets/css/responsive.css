@@ -310,4 +310,8 @@
         letter-spacing: -.75px;
         line-height: 21px;
     }
+    .project-slide-col-2 {
+        display: block;
+        
+      }
 }
