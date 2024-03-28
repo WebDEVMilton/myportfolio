@@ -1,6 +1,21 @@
 import React, { Fragment } from 'react'
 import '../../assets/css/custom.css'
 import '../../assets/css/responsive.css'
+import project1 from '../../assets/img/project-1.png'
+import project2 from '../../assets/img/project-2.png'
+import project3 from '../../assets/img/project-3.png'
+import project4 from '../../assets/img/project-4.png'
+import project5 from '../../assets/img/project-5.png'
+import project6 from '../../assets/img/project-6.png'
+import project7 from '../../assets/img/project-7.png'
+import project8 from '../../assets/img/project-8.png'
+import project9 from '../../assets/img/project-9.png'
+import project10 from '../../assets/img/project-10.png'
+import project11 from '../../assets/img/project-11.png'
+import project12 from '../../assets/img/project-12.png'
+import project13 from '../../assets/img/project-13.png'
+import project14 from '../../assets/img/project-14.png'
+import project15 from '../../assets/img/project-15.png'
 
 
 const ProjectContent = () => {
@@ -30,139 +45,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-1.png" alt="Project">
-                                <span className="badge-year">
-                                    <span className="badge-inner">
-                                        <span>2024</span>
-                                        <span>2024</span>
-                                    </span>
-                                </span>
-                            </div>
-                            <div className="project-content">
-                                <h3>Retro Remix</h3>
-                                <p>Ux Design</p>
-                                <a href="project-detail.html" className="theme-btn common-box">
-                                    <span>
-                                        <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"></span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project-slider-box">
-                            <a href="project-detail.html" className="overlay-link"></a>
-                            <div className="project-img">
-                                <img src="assets/imgs/project-2.png" alt="Project">
-                                <span className="badge-year">
-                                    <span className="badge-inner">
-                                        <span>2024</span>
-                                        <span>2024</span>
-                                    </span>
-                                </span>
-                            </div>
-                            <div className="project-content">
-                                <h3>Mystical Meodows</h3>
-                                <p>Web Development</p>
-                                <a href="project-detail.html" className="theme-btn common-box">
-                                    <span>
-                                        <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"></span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project-slider-box">
-                            <a href="project-detail.html" className="overlay-link"></a>
-                            <div className="project-img">
-                                <img src="assets/imgs/project-3.png" alt="Project">
-                                <span className="badge-year">
-                                    <span className="badge-inner">
-                                        <span>2024</span>
-                                        <span>2024</span>
-                                    </span>
-                                </span>
-                            </div>
-                            <div className="project-content">
-                                <h3>Cybernetic Dreams</h3>
-                                <p>Brand Marketing</p>
-                                <a href="project-detail.html" className="theme-btn common-box">
-                                    <span>
-                                        <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"></span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project-slider-box">
-                            <a href="project-detail.html" className="overlay-link"></a>
-                            <div className="project-img">
-                                <img src="assets/imgs/project-4.png" alt="Project">
-                                <span className="badge-year">
-                                    <span className="badge-inner">
-                                        <span>2024</span>
-                                        <span>2024</span>
-                                    </span>
-                                </span>
-                            </div>
-                            <div className="project-content">
-                                <h3>Light Play</h3>
-                                <p>SEO</p>
-                                <a href="project-detail.html" className="theme-btn common-box">
-                                    <span>
-                                        <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"></span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project-slider-box">
-                            <a href="project-detail.html" className="overlay-link"></a>
-                            <div className="project-img">
-                                <img src="assets/imgs/project-5.png" alt="Project">
-                                <span className="badge-year">
-                                    <span className="badge-inner">
-                                        <span>2024</span>
-                                        <span>2024</span>
-                                    </span>
-                                </span>
-                            </div>
-                            <div className="project-content">
-                                <h3>Synthwave Sympony</h3>
-                                <p>Social Media</p>
-                                <a href="project-detail.html" className="theme-btn common-box">
-                                    <span>
-                                        <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project-slider-box">
-                            <a href="project-detail.html" className="overlay-link"></a>
-                            <div className="project-img">
-                                <img src="assets/imgs/project-6.png" alt="Project">
-                                <span className="badge-year">
-                                    <span className="badge-inner">
-                                        <span>2024</span>
-                                        <span>2024</span>
-                                    </span>
-                                </span>
-                            </div>
-                            <div className="project-content">
-                                <h3>Mindscapes</h3>
-                                <p>Robotic Automation</p>
-                                <a href="project-detail.html" className="theme-btn common-box">
-                                    <span>
-                                        <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project-slider-box">
-                            <a href="project-detail.html" className="overlay-link"></a>
-                            <div className="project-img">
-                                <img src="assets/imgs/project-7.png" alt="Project"/>
+                                <img src={project1} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -184,7 +67,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-8.png" alt="Project"/>
+                                <img src={project1} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -206,7 +89,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-9.png" alt="Project"/>
+                                <img src={project2} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -228,7 +111,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-10.png" alt="Project"/>
+                                <img src={project3} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -250,7 +133,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-11.png" alt="Project"/>
+                                <img src={project4} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -272,7 +155,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-12.png" alt="Project"/>
+                                <img src={project5} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -294,7 +177,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-13.jpg" alt="Project">
+                                <img src={project6} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -308,7 +191,7 @@ const ProjectContent = () => {
                                 <a href="project-detail.html" className="theme-btn common-box">
                                     <span>
                                         <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
                                     </span>
                                 </a>
                             </div>
@@ -316,7 +199,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-14.jpg" alt="Project">
+                                <img src={project7} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -330,7 +213,7 @@ const ProjectContent = () => {
                                 <a href="project-detail.html" className="theme-btn common-box">
                                     <span>
                                         <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
                                     </span>
                                 </a>
                             </div>
@@ -338,7 +221,7 @@ const ProjectContent = () => {
                         <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
-                                <img src="assets/imgs/project-15.jpg" alt="Project">
+                                <img src={project8} alt="Project"/>
                                 <span className="badge-year">
                                     <span className="badge-inner">
                                         <span>2024</span>
@@ -352,7 +235,139 @@ const ProjectContent = () => {
                                 <a href="project-detail.html" className="theme-btn common-box">
                                     <span>
                                         <span className="normal"><i className="las la-angle-right"></i></span>
-                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="project-slider-box">
+                            <a href="project-detail.html" className="overlay-link"></a>
+                            <div className="project-img">
+                                <img src={project10} alt="Project"/>
+                                <span className="badge-year">
+                                    <span className="badge-inner">
+                                        <span>2024</span>
+                                        <span>2024</span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="project-content">
+                                <h3>Light Play</h3>
+                                <p>SEO</p>
+                                <a href="project-detail.html" className="theme-btn common-box">
+                                    <span>
+                                        <span className="normal"><i className="las la-angle-right"></i></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="project-slider-box">
+                            <a href="project-detail.html" className="overlay-link"></a>
+                            <div className="project-img">
+                                <img src={project11} alt="Project"/>
+                                <span className="badge-year">
+                                    <span className="badge-inner">
+                                        <span>2024</span>
+                                        <span>2024</span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="project-content">
+                                <h3>Synthwave Sympony</h3>
+                                <p>Social Media</p>
+                                <a href="project-detail.html" className="theme-btn common-box">
+                                    <span>
+                                        <span className="normal"><i className="las la-angle-right"></i></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="project-slider-box">
+                            <a href="project-detail.html" className="overlay-link"></a>
+                            <div className="project-img">
+                                <img src={project12} alt="Project"/>
+                                <span className="badge-year">
+                                    <span className="badge-inner">
+                                        <span>2024</span>
+                                        <span>2024</span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="project-content">
+                                <h3>Mindscapes</h3>
+                                <p>Robotic Automation</p>
+                                <a href="project-detail.html" className="theme-btn common-box">
+                                    <span>
+                                        <span className="normal"><i className="las la-angle-right"></i></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="project-slider-box">
+                            <a href="project-detail.html" className="overlay-link"></a>
+                            <div className="project-img">
+                                <img src={project13} alt="Project"/>
+                                <span className="badge-year">
+                                    <span className="badge-inner">
+                                        <span>2024</span>
+                                        <span>2024</span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="project-content">
+                                <h3>Retro Remix</h3>
+                                <p>Ux Design</p>
+                                <a href="project-detail.html" className="theme-btn common-box">
+                                    <span>
+                                        <span className="normal"><i className="las la-angle-right"></i></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="project-slider-box">
+                            <a href="project-detail.html" className="overlay-link"></a>
+                            <div className="project-img">
+                                <img src={project14} alt="Project"/>
+                                <span className="badge-year">
+                                    <span className="badge-inner">
+                                        <span>2024</span>
+                                        <span>2024</span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="project-content">
+                                <h3>Mystical Meodows</h3>
+                                <p>Web Development</p>
+                                <a href="project-detail.html" className="theme-btn common-box">
+                                    <span>
+                                        <span className="normal"><i className="las la-angle-right"></i></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="project-slider-box">
+                            <a href="project-detail.html" className="overlay-link"></a>
+                            <div className="project-img">
+                                <img src={project15} alt="Project"/>
+                                <span className="badge-year">
+                                    <span className="badge-inner">
+                                        <span>2024</span>
+                                        <span>2024</span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="project-content">
+                                <h3>Cybernetic Dreams</h3>
+                                <p>Brand Marketing</p>
+                                <a href="project-detail.html" className="theme-btn common-box">
+                                    <span>
+                                        <span className="normal"><i className="las la-angle-right"></i></span>
+                                        <span className="hover"><img src="assets/imgs/right-arrow.svg" alt="icon"/></span>
                                     </span>
                                 </a>
                             </div>

@@ -55,7 +55,7 @@ const Header = () => {
 
                                 <div className="hero-map-wrap">
                                     <div className="hero-map-top">
-                                        <span className="address common-box">Lamabazar, Sylhet</span>
+                                        <span className="address common-box">3100,Sylhet</span>
                                         <span className="address common-box address-country"><i className="ph-duotone ph-map-pin map-icon"></i> Bangladesh</span>
                                     </div>
                                     <div id="hero-map mt-10">
