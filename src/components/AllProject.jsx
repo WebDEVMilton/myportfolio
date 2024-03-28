@@ -1,24 +1,24 @@
 import React, { Fragment } from 'react'
-import '../../assets/css/custom.css'
-import '../../assets/css/responsive.css'
-import project1 from '../../assets/img/project-1.png'
-import project2 from '../../assets/img/project-2.png'
-import project3 from '../../assets/img/project-3.png'
-import project4 from '../../assets/img/project-4.png'
-import project5 from '../../assets/img/project-5.png'
-import project6 from '../../assets/img/project-6.png'
-import project7 from '../../assets/img/project-7.png'
-import project8 from '../../assets/img/project-8.png'
-import project9 from '../../assets/img/project-9.png'
-import project10 from '../../assets/img/project-10.png'
-import project11 from '../../assets/img/project-11.png'
+import '../assets/css/custom.css'
+import '../assets/css/responsive.css'
+import project1 from '../assets/img/project-1.png'
+import project2 from '../assets/img/project-2.png'
+import project3 from '../assets/img/project-3.png'
+import project4 from '../assets/img/project-4.png'
+import project5 from '../assets/img/project-5.png'
+import project6 from '../assets/img/project-6.png'
+import project7 from '../assets/img/project-7.png'
+import project8 from '../assets/img/project-8.png'
+import project9 from '../assets/img/project-9.png'
+import project10 from '../assets/img/project-10.png'
+import project11 from '../assets/img/project-11.png'
 import project12 from '../../assets/img/project-12.png'
-import project13 from '../../assets/img/project-13.png'
-import project14 from '../../assets/img/project-14.png'
-import project15 from '../../assets/img/project-15.png'
+import project13 from '../assets/img/project-13.png'
+import project14 from '../assets/img/project-14.png'
+import project15 from '../assets/img/project-15.png'
 
 
-const ProjectContent = () => {
+const AllProject = () => {
   return (
     <Fragment>
             <section className="project2-area">
@@ -383,4 +383,4 @@ const ProjectContent = () => {
   )
 }
 
-export default ProjectContent
+export default AllProject

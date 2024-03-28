@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import '../../assets/css/custom.css'
-import '../../assets/css/responsive.css'
-import edc1 from '../../assets/img/edc-1.jpg'
-import edc2 from '../../assets/img/edc-2.jpg'
-import edc3 from '../../assets/img/edc-3.jpg'
-import exp1 from '../../assets/img/exp-1.png'
-import exp2 from '../../assets/img/exp-2.png'
-import exp3 from '../../assets/img/exp-3.png'
+import '../assets/css/custom.css'
+import '../assets/css/responsive.css'
+import edc1 from '../assets/img/edc-1.jpg'
+import edc2 from '../assets/img/edc-2.jpg'
+import edc3 from '../assets/img/edc-3.jpg'
+import exp1 from '../assets/img/exp-1.png'
+import exp2 from '../assets/img/exp-2.png'
+import exp3 from '../assets/img/exp-3.png'
 
 
 const Education = () => {

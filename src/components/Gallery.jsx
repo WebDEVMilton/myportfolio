@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
-import '../../assets/css/custom.css'
-import '../../assets/css/responsive.css'
-import gallery1 from '../../assets/img/gallery-1.jpg'
-import gallery2 from '../../assets/img/gallery-2.jpg'
-import gallery3 from '../../assets/img/gallery-3.jpg'
-import gallery4 from '../../assets/img/gallery-4.jpg'
+import '../assets/css/custom.css'
+import '../assets/css/responsive.css'
+import gallery1 from '../assets/img/gallery-1.jpg'
+import gallery2 from '../assets/img/gallery-2.jpg'
+import gallery3 from '../assets/img/gallery-3.jpg'
+import gallery4 from '../assets/img/gallery-4.jpg'
 
 const Gallery = () => {
   return (

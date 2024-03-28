@@ -925,10 +925,19 @@ main {
 .project-slider-wrapper {
     overflow: hidden;
 }
-.project-slider .project-slide-col-2 .project-slider-box + .project-slider-box {
-    margin-top: 18px;
 
-}
+.project-slide-col-2 {
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+  }
+
+/* .project-slider .project-slide-col-2 .project-slider-box + .project-slider-box {
+    /* margin-top: 18px; 
+
+} */
+
 .project-slider-box .overlay-link {
     position: absolute;
     left: 0;

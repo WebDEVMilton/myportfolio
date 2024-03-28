@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import '../../assets/css/custom.css'
-import '../../assets/css/responsive.css'
-import me from '../../assets/img/miltondey1.jpg'
+import '../assets/css/custom.css'
+import '../assets/css/responsive.css'
+import me from '../assets/img/miltondey1.jpg'
 import {Clock} from "@phosphor-icons/react";
 import GoogleMapReact from 'google-map-react';
 

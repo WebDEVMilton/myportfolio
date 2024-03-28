@@ -2,8 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Sidebar from './components/inc/Sidebar'
-import Home from './components/Home/Home'
+import { BrowserRouter} from 'react-router-dom'
+import AppRouter from './Router/AppRouter'
+
 
 
 
@@ -13,19 +14,10 @@ function App() {
 
   return (
     <>
-      <Sidebar/>
-      <main className="main">
-        <div className="page-content-wrapper">
-          <Home/>
+      <BrowserRouter>
+        <AppRouter/>
+      </BrowserRouter>
 
-
-
-      
-        </div>
-
-
-
-      </main>
     </>
   )
 }

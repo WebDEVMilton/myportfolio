@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
-import '../../assets/css/custom.css'
-import '../../assets/css/responsive.css'
-import blog1 from '../../assets/img/blog-1.png'
-import blog2 from '../../assets/img/blog-2.png'
-import blog3 from '../../assets/img/blog-3.png'
+import '../assets/css/custom.css'
+import '../assets/css/responsive.css'
+import blog1 from '../assets/img/blog-1.png'
+import blog2 from '../assets/img/blog-2.png'
+import blog3 from '../assets/img/blog-3.png'
 
 const Blog = () => {
   return (

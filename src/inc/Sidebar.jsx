@@ -1,8 +1,9 @@
 import React, { Fragment,useState } from 'react'
-import '../../assets/css/custom.css'
-import '../../assets/css/responsive.css'
+import { NavLink } from 'react-router-dom';
+import '../assets/css/custom.css'
+import '../assets/css/responsive.css'
 import { MapPin,House,SquaresFour,Fingerprint,Camera,Paperclip,Swatches,DribbbleLogo,TwitterLogo,InstagramLogo,YoutubeLogo} from "@phosphor-icons/react";
-import me from '../../assets/img/miltondeyface.jpg'
+import me from '../assets/img/miltondeyface.jpg'
 
 const Sidebar = () => {
     const[isOpen,setIsOpen]= useState(false);
@@ -45,22 +46,22 @@ const Sidebar = () => {
                             <nav className="menu-lists">
                                 <ul>
                                     <li className="active-menu">
-                                        <a href="index.html"><span className="icon"><House size={32} /></span> <span className="title">Home</span></a>
+                                        <NavLink to="/home"><span className="icon"><House size={32} /></span> <span className="title">Home</span></NavLink>
                                     </li>
                                     <li>
-                                        <a href="projects.html"><span className="icon"><SquaresFour size={32} /></span> <span className="title">Projects</span></a>
+                                        <NavLink to="/project"><span className="icon"><SquaresFour size={32} /></span> <span className="title">Projects</span></NavLink>
                                     </li>
                                     <li>
-                                        <a href="about.html"><span className="icon"><Fingerprint size={32} /></span> <span className="title">About</span></a>
+                                        <NavLink to="/about"><span className="icon"><Fingerprint size={32} /></span> <span className="title">About</span></NavLink>
                                     </li>
                                     <li>
-                                        <a href="gallery.html"><span className="icon"><Camera size={32} /></span> <span className="title">Gallery</span></a>
+                                        <NavLink to="/gallery"><span className="icon"><Camera size={32} /></span> <span className="title">Gallery</span></NavLink>
                                     </li>
                                     <li>
-                                        <a href="contact.html"><span className="icon"><Paperclip size={32} /></span> <span className="title">Contact</span></a>
+                                        <NavLink to="/contact"><span className="icon"><Paperclip size={32} /></span> <span className="title">Contact</span></NavLink>
                                     </li>
                                     <li>
-                                        <a href="blog.html"><span className="icon"><Swatches size={32} /></span> <span className="title">Blog</span></a>
+                                        <NavLink to="/blog"><span className="icon"><Swatches size={32} /></span> <span className="title">Blog</span></NavLink>
                                     </li>
                                 </ul>
                             </nav>

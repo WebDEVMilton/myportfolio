@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import '../../assets/css/custom.css'
-import '../../assets/css/responsive.css'
-import client1 from '../../assets/img/client-1.png'
-import client2 from '../../assets/img/client-2.png'
-import client3 from '../../assets/img/client-3.png'
-import client4 from '../../assets/img/client-4.png'
-import client5 from '../../assets/img/client-5.png'
-import client6 from '../../assets/img/client-6.png'
+import '../assets/css/custom.css'
+import '../assets/css/responsive.css'
+import client1 from '../assets/img/client-1.png'
+import client2 from '../assets/img/client-2.png'
+import client3 from '../assets/img/client-3.png'
+import client4 from '../assets/img/client-4.png'
+import client5 from '../assets/img/client-5.png'
+import client6 from '../assets/img/client-6.png'
 
 
 const Partner = () => {

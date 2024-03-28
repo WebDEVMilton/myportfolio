@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import '../../assets/css/custom.css'
-import '../../assets/css/responsive.css'
-import stack1 from '../../assets/img/stack-1.png'
-import stack2 from '../../assets/img/stack-2.png'
-import stack3 from '../../assets/img/stack-3.png'
-import stack4 from '../../assets/img/stack-4.png'
-import stack5 from '../../assets/img/stack-5.png'
-import stack6 from '../../assets/img/stack-6.png'
+import '../assets/css/custom.css'
+import '../assets/css/responsive.css'
+import stack1 from '../assets/img/stack-1.png'
+import stack2 from '../assets/img/stack-2.png'
+import stack3 from '../assets/img/stack-3.png'
+import stack4 from '../assets/img/stack-4.png'
+import stack5 from '../assets/img/stack-5.png'
+import stack6 from '../assets/img/stack-6.png'
 
 const Stack = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import '../../assets/css/custom.css';
-import '../../assets/css/responsive.css';
+import '../assets/css/custom.css';
+import '../assets/css/responsive.css';
 
 const Contact = () => {
   return (
