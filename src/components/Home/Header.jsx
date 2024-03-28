@@ -49,7 +49,7 @@ const Header = () => {
                                 <div className="hero-content common-box">
                                     <span>A Software Engineer</span>
                                     <h1>Milton Dey Mishu 👋🏽</h1>
-                                    <p>I am a San francisco-based product designer with a focus on web design, illustration, a visual development. I have a diverse range of experience and industries.</p>
+                                    <p>I am a Sylhet, Bangladesh-based product designer with a focus on web design, illustration, a visual development. I have a diverse range of experience and industries.</p>
                                     {/* <img src="assets/imgs/signeture.svg" alt="Signeture" className="signeture"> */}
                                 </div>
 
