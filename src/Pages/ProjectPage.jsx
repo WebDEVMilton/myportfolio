@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import AllProject from '../components/AllProject'
+import Sidebar from '../inc/Sidebar'
+import Footer from '../inc/Footer'
 
 const ProjectPage = () => {
   return (
-    <div>
+    <Fragment>
+
       
-    </div>
+      <Sidebar/>
+        <main className="main">
+            <div className="page-content-wrapper">
+                <AllProject/>
+                <Footer/>
+            </div>
+        </main>
+    </Fragment>
   )
 }
 

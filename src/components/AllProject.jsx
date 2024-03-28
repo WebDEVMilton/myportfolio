@@ -9,13 +9,13 @@ import project5 from '../assets/img/project-5.png'
 import project6 from '../assets/img/project-6.png'
 import project7 from '../assets/img/project-7.png'
 import project8 from '../assets/img/project-8.png'
-import project9 from '../assets/img/project-9.png'
-import project10 from '../assets/img/project-10.png'
-import project11 from '../assets/img/project-11.png'
-import project12 from '../../assets/img/project-12.png'
-import project13 from '../assets/img/project-13.png'
-import project14 from '../assets/img/project-14.png'
-import project15 from '../assets/img/project-15.png'
+// import project9 from '../assets/img/project-9.png'
+// import project10 from '../assets/img/project-10.png'
+// import project11 from '../assets/img/project-11.png'
+// import project12 from '../assets/img/project-12.png'
+// import project13 from '../assets/img/project-13.png'
+// import project14 from '../assets/img/project-14.png'
+// import project15 from '../assets/img/project-15.png'
 
 
 const AllProject = () => {
@@ -218,7 +218,7 @@ const AllProject = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="project-slider-box">
+                        {/* <div className="project-slider-box">
                             <a href="project-detail.html" className="overlay-link"></a>
                             <div className="project-img">
                                 <img src={project8} alt="Project"/>
@@ -371,7 +371,7 @@ const AllProject = () => {
                                     </span>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
 
