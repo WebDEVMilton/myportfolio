@@ -9,6 +9,9 @@ import Service from './Service'
 import Stack from './Stack'
 import Blog from './Blog'
 import Testimonial from './Testimonial'
+import Gallery from './Gallery'
+import Contact from './Contact'
+import Footer from '../inc/Footer'
 
 
 
@@ -23,6 +26,9 @@ const Home = () => {
         <Stack/>
         <Blog/>
         <Testimonial/>
+        <Gallery/>
+        <Contact/>
+        <Footer/>
         
 
 

@@ -3,10 +3,20 @@ import '../../assets/css/custom.css'
 import '../../assets/css/responsive.css'
 import me from '../../assets/img/miltondey1.jpg'
 import {Clock} from "@phosphor-icons/react";
+import GoogleMapReact from 'google-map-react';
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 // import * as React from 'react';
 // import Map from 'react-map-gl';
 
 const Header = () => {
+    const defaultProps = {
+        center: {
+          lat: 10.99835602,
+          lng: 77.01502627
+        },
+        zoom: 11
+      };
   return (
     <Fragment>
             <section className="hero-area">
@@ -48,9 +58,22 @@ const Header = () => {
                                         <span className="address common-box">44 Baker Street, SA</span>
                                         <span className="address common-box address-country"><i className="ph-duotone ph-map-pin map-icon"></i> USA</span>
                                     </div>
-                                    <div id="hero-map">
-                                        <canvas id="cobe" width="600" height="600"></canvas>
-                                        
+                                    <div id="hero-map mt-10">
+                                        {/* <canvas id="cobe" width="600" height="600"></canvas> */}
+                                        <div className="" style={{ height: '100%', width: '100%' }}>
+                                        <GoogleMapReact
+                                                bootstrapURLKeys={{ key: "" }}
+                                                defaultCenter={defaultProps.center}
+                                                defaultZoom={defaultProps.zoom}
+                                            >
+                                                <AnyReactComponent
+                                                lat={59.955413}
+                                                lng={30.337844}
+                                                text="My Marker"
+                                                />
+                                            </GoogleMapReact>
+                                        </div>
+                                                                                
                                     </div>
                                 </div>
                             </div>
