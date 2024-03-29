@@ -14,7 +14,7 @@ const AppRouter = () => {
     <Fragment>
           <Routes>
             <Route index element={<HomePage/>}/>
-          <Route  path='/home' element={<HomePage/>}/>
+          <Route  path='/' element={<HomePage/>}/>
           <Route  path='/project' element={<ProjectPage/>}/>
           <Route  path='/about' element={<AboutPage/>}/>
           <Route  path='/gallery' element={<GalleryPage/>}/>

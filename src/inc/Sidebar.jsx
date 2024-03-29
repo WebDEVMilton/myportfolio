@@ -46,7 +46,7 @@ const Sidebar = () => {
                             <nav className="menu-lists">
                                 <ul>
                                     <li className="active-menu">
-                                        <NavLink to="/home"><span className="icon"><House size={32} /></span> <span className="title">Home</span></NavLink>
+                                        <NavLink to="/"><span className="icon"><House size={32} /></span> <span className="title">Home</span></NavLink>
                                     </li>
                                     <li>
                                         <NavLink to="/project"><span className="icon"><SquaresFour size={32} /></span> <span className="title">Projects</span></NavLink>
