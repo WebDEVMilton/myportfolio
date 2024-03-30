@@ -955,13 +955,16 @@ main {
     overflow: hidden;
     position: relative;
     transition: .5s;
+    max-height: 465px;
 }
 .project-slider-box .project-img {
-    position: relative;
+    /* position: relative; */
     margin-bottom: 25px;
+    overflow: hidden;
 }
 .project-slider-box .project-img img {
     width: 100%;
+
 }
 .project-slider-box .project-img .badge-year {
     position: absolute;
